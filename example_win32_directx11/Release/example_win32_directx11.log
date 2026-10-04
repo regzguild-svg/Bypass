@@ -1,0 +1,219 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\) contains files shared from another project (ADI CHEATS BYPASS.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(12,9): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59282,9):
+      see previous definition of 'DXGI_STATUS_OCCLUDED'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(13,9): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59291,9):
+      see previous definition of 'DXGI_STATUS_CLIPPED'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(14,9): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59300,9):
+      see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(15,9): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59309,9):
+      see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(16,9): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59318,9):
+      see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(17,9): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59327,9):
+      see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(18,9): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59336,9):
+      see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(21,9): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59351,9):
+      see previous definition of 'DXGI_ERROR_INVALID_CALL'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(22,9): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59360,9):
+      see previous definition of 'DXGI_ERROR_NOT_FOUND'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(23,9): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59369,9):
+      see previous definition of 'DXGI_ERROR_MORE_DATA'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(24,9): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59378,9):
+      see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(25,9): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59387,9):
+      see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(26,9): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59396,9):
+      see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(27,9): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59406,9):
+      see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(28,9): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59415,9):
+      see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(29,9): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59425,9):
+      see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(30,9): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59434,9):
+      see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(31,9): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59444,9):
+      see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(32,9): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59453,9):
+      see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(33,9): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59462,9):
+      see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(34,9): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59472,9):
+      see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\dxgitype.h(35,9): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59481,9):
+      see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\d3d11.h(917,9): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59796,9):
+      see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\d3d11.h(918,9): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59805,9):
+      see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\d3d11.h(919,9): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59815,9):
+      see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\d3d11.h(920,9): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59824,9):
+      see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\d3d10.h(608,9): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59772,9):
+      see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\SDK\Include\d3d10.h(609,9): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59781,9):
+      see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\SmartyMem.h(35,30): warning C4100: 'type': unreferenced parameter
+  (compiling source file 'main.cpp')
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\SmartyMem.h(112,30): warning C4100: 'type': unreferenced parameter
+  (compiling source file 'main.cpp')
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\SmartyMem.h(173,48): warning C4312: 'type cast': conversion from 'ULONG' to 'LPVOID' of greater size
+  (compiling source file 'main.cpp')
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\SmartyMem.h(178,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\SmartyMem.h(190,46): warning C4267: 'argument': conversion from 'size_t' to 'ULONG', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\SmartyMem.h(176,111): warning C4100: 'ForceWrite': unreferenced parameter
+  (compiling source file 'main.cpp')
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\SmartyMem.h(273,24): warning C4244: 'return': conversion from 'DWORD_PTR' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(309,133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(309,117): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(309,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(309,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(305,89): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(314,22): warning C4459: declaration of 'hwnd' hides global declaration
+      C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(82,6):
+      see declaration of 'hwnd'
+  
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(415,241): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(415,225): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(415,189): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(415,129): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(464,96): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(464,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(510,103): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(510,94): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(510,71): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(510,62): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(603,68): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(460,10): warning C4189: 'show_demo_window': local variable is initialized but not referenced
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(461,10): warning C4189: 'show_another_window': local variable is initialized but not referenced
+C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\main.cpp(485,27): warning C4189: 'g': local variable is initialized but not referenced
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  87 of 2388 functions ( 3.6%) were compiled, the rest were copied from previous compilation.
+    21 functions were new in current compilation
+    13 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+freetype.lib(ftinit.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftinit.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(ftbase.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftbase.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(ftsynth.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftsynth.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(autofit.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(autofit.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(truetype.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(truetype.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(type1.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(type1.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(cff.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(cff.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(type1cid.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(type1cid.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(pfr.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(pfr.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(type42.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(type42.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(winfnt.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(winfnt.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(pcf.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(pcf.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(bdf.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(bdf.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(psaux.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(psaux.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(psmodule.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(psmodule.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(pshinter.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(pshinter.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(sfnt.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(sfnt.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(smooth.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(smooth.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(raster.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(raster.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(sdf.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(sdf.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(svg.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(svg.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(ftsystem.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftsystem.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(ftbitmap.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftbitmap.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(ftgzip.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftgzip.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(ftlzw.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftlzw.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(ftdebug.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftdebug.obj)' or at 'C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+  example_win32_directx11.vcxproj -> C:\Users\kenzo\Documents\YUVE BYPASS\LODER\examples\example_win32_directx11\Release\YUVE BYAPSS.exe

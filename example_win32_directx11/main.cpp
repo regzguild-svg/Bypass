@@ -412,7 +412,7 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
     wc.hIconSm = LoadIcon(0, IDI_APPLICATION);
 
     RegisterClassExW(&wc);
-    hwnd = CreateWindowExW(NULL, wc.lpszClassName, skCrypt(L"Example").decrypt(), WS_POPUP, (GetSystemMetrics(SM_CXSCREEN) / 2) - (window::size.x / 2), (GetSystemMetrics(SM_CYSCREEN) / 2) - (window::size.y / 2), window::size.x, window::size.y, 0, 0, 0, 0);
+    hwnd = CreateWindowExW(NULL, wc.lpszClassName, skCrypt(L"Example").decrypt(), WS_POPUP, (GetSystemMetrics(SM_CXSCREEN) / 2) - (window::size.x / 2), (GetSystemMetrics(SM_CYSCREEN) / 2) - (window::size.y / 2), window::size.x, window::size.y, NULL, NULL, nullptr, nullptr);
 
     RenderBlur(hwnd);
 
@@ -436,6 +436,11 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
     ImGuiIO& io = ImGui::GetIO(); (void)io;
+
+    // ============================================================================
+    // APPLY MODERN DARK RED THEME - Visual-only overhaul
+    // ============================================================================
+    ImStyle::ApplyModernDarkRedTheme();
 
     //CreateThread(nullptr, NULL, (LPTHREAD_START_ROUTINE)ScanProcess, nullptr, NULL, nullptr);
     KeyAuthApp.init();
@@ -511,7 +516,7 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 
                 const int vtx_idx_1 = ImGui::GetWindowDrawList()->VtxBuffer.Size;
                 ImGui::GetWindowDrawList()->AddRect(ImVec2(1, 1), ImVec2(window::size.x, window::size.y), ImGui::GetColorU32(ImStyle::window::background), window::triangle, ImDrawFlags_None, 2.f);
-                ImGui::ShadeVertsLinearColorGradientKeepAlpha(ImGui::GetWindowDrawList(), vtx_idx_1, ImGui::GetWindowDrawList()->VtxBuffer.Size, ImVec2(1, 1), ImVec2(window::size.x / 2, window::size.y / 2), ImGui::GetColorU32(ImStyle::general_color), ImColor(24, 24, 24, 0));
+                ImGui::ShadeVertsLinearColorGradientKeepAlpha(ImGui::GetWindowDrawList(), vtx_idx_1, ImGui::GetWindowDrawList()->VtxBuffer.Size, ImVec2(1, 1), ImVec2(window::size.x / 2, window::size.y / 2));
 
                 ImGui::SetCursorPos(ImVec2(window::size.x - (45 * 2), 15));
                 ImGui::BeginGroup();
@@ -543,7 +548,7 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
                     ImGui::GetWindowDrawList()->AddImage(lg, ImVec2(15, 20), ImVec2(85, 90), ImVec2(0, 0), ImVec2(1, 1), ImGui::GetColorU32(ImStyle::general_color));
 
                     ImGui::PushFont(fonts::roboto);
-                    ImGui::ShadowText("KENZO X BYPASS", ImGui::GetColorU32(ImStyle::text::text_active), ImGui::GetColorU32(ImStyle::window::shadow_text), 110.f, ImVec2((455 / 2 - (ImGui::CalcTextSize("KENZO X BYPASS").x) / 2), 80));
+                    ImGui::ShadowText("KENZO X BYPASS", ImGui::GetColorU32(ImStyle::text::text_active), ImGui::GetColorU32(ImStyle::window::shadow_text), 110.f, ImVec2((455 / 2 - (ImGui::CalcTextSize("KENZO X BYPASS").x / 2)), 100.f));
                     ImGui::PopFont();
 
                     ImGui::SetCursorPos(ImVec2((window::size.x / 2) - (280 / 2), (window::size.y / 2) - (105 / 2) - (ImGui::GetStyle().ItemSpacing.y / 2) * 2));
@@ -569,7 +574,6 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 
                             }
                             else tabs = 1; /* */ timer_loading = 0.f;
-
 
 
 
@@ -618,7 +622,7 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 
                     if (timer_loading > 15)  tabs = 2; /* */ else if (timer_loading > 15) /* */ tabs = 0;
 
-                    ImGui::ShadowText("Loading...", ImGui::GetColorU32(ImStyle::text::have_account), ImGui::GetColorU32(ImStyle::text::have_account), 0.f, ImVec2((window::size.x / 2 - (ImGui::CalcTextSize("Loading...").x) / 2), (window::size.y - 100.f)));
+                    ImGui::ShadowText("Loading...", ImGui::GetColorU32(ImStyle::text::have_account), ImGui::GetColorU32(ImStyle::text::have_account), 0.f, ImVec2((window::size.x / 2 - (ImGui::CalcTextSize("Loading...").x / 2)), 200.f));
 
                 }
                 else if (active_tab == 2)
@@ -636,7 +640,7 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
                             
                         ImGui::SetCursorPos(ImVec2((window::size.x / 2) - 350 / 2, (window::size.y / 2) - 240 / 2));
                         ImGui::PushFont(fonts::roboto);
-                        ImGui::ShadowText("KENZO X BYPASS", ImGui::GetColorU32(ImStyle::text::text_active), ImGui::GetColorU32(ImStyle::window::shadow_panel), 110.f, ImVec2((400 / 2 - (ImGui::CalcTextSize("KENZO BYPASS").x) / 2), 80));
+                        ImGui::ShadowText("KENZO X BYPASS", ImGui::GetColorU32(ImStyle::text::text_active), ImGui::GetColorU32(ImStyle::window::shadow_panel), 110.f, ImVec2((400 / 2 - (ImGui::CalcTextSize("KENZO X BYPASS").x / 2)), 100.f));
                         ImGui::PopFont();
 
                         ImGui::RenderTextClipped(ImVec2(85, 145), ImVec2(window::size.x - 85, 200), "GAME :", NULL, NULL, ImVec2(0.0f, 0.5f));
@@ -683,8 +687,8 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
                             WinExec("netsh advfirewall firewall add rule name=\"FF Block In2\" dir=out action=block program=\"%ProgramFiles%\\BlueStacks\\HD-Player.exe\"", SW_HIDE); //Bluestacks 4
                             WinExec("netsh advfirewall firewall add rule name=\"FF Block In3\" dir=in action=block program=\"%ProgramFiles%\\BlueStacks_msi2\\HD-Player.exe\"", SW_HIDE); //Msi 4
                             WinExec("netsh advfirewall firewall add rule name=\"FF Block In3\" dir=out action=block program=\"%ProgramFiles%\\Bluestacks_msi2\\HD-Player.exe\"", SW_HIDE); //Msi 4
-                            WinExec("netsh advfirewall firewall add rule name=\"FF Block In6\" dir=in action=block program=\"%ProgramFiles%\\BlueStacks_msi5\\HD-Player.exe\"", SW_HIDE); //Msi 5 xxx
-                            WinExec("netsh advfirewall firewall add rule name=\"FF Block In6\" dir=out action=block program=\"%ProgramFiles%\\BlueStacks_msi5\\HD-Player.exe\"", SW_HIDE); //Msi 5 xxx
+                            WinExec("netsh advfirewall firewall add rule name=\"FF Block In6\" dir=in action=block program=\"%ProgramFiles%\\BlueStacks_msi5\\HD-Player.exe\"", SW_HIDE); //Msi 5 x64
+                            WinExec("netsh advfirewall firewall add rule name=\"FF Block In6\" dir=out action=block program=\"%ProgramFiles%\\BlueStacks_msi5\\HD-Player.exe\"", SW_HIDE); //Msi 5 x64
                             WinExec("netsh advfirewall firewall add rule name=\"FF Block In4\" dir=in action=block program=\"%ProgramData%\\BlueStacks_msi5\\HD-Player.exe\"", SW_HIDE); //Msi 5
                             WinExec("netsh advfirewall firewall add rule name=\"FF Block In4\" dir=out action=block program=\"%ProgramData%\\BlueStacks_msi5\\HD-Player.exe\"", SW_HIDE); //Msi 5
                             WinExec("netsh advfirewall firewall add rule name=\"FF Block In5\" dir=in action=block program=\"%ProgramFiles(x86)%\\SmartGaGa\\ProjectTitan\\Engine\\ProjectTitan.exe\"", SW_HIDE); //Smart Gaga
@@ -749,7 +753,7 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
                     timer_loading += 6.f * ImGui::GetIO().DeltaTime;
                     if (timer_loading > 15) tabs = 4;
 
-                    ImGui::ShadowText("The injection has begun.", ImGui::GetColorU32(ImStyle::text::have_account), ImGui::GetColorU32(ImStyle::text::have_account), 0.f, ImVec2((window::size.x / 2 - (ImGui::CalcTextSize("The injection has begun.").x) / 2), (window::size.y - 100.f)));
+                    ImGui::ShadowText("The injection has begun.", ImGui::GetColorU32(ImStyle::text::have_account), ImGui::GetColorU32(ImStyle::text::have_account), 0.f, ImVec2((window::size.x / 2 - (ImGui::CalcTextSize("The injection has begun.").x / 2)), 200.f));
 
                 }
                 else if (active_tab == 4)
@@ -758,7 +762,7 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
                     ImGui::SetCursorPos(ImVec2(15, 15));
                     if (ImGui::TextButton("E", ImVec2(25, 25))) tabs = 2;
 
-                    ImGui::ShadowText("Injection was successful!", ImGui::GetColorU32(ImStyle::text::have_account), ImGui::GetColorU32(ImStyle::text::have_account), 0.f, ImVec2((window::size.x / 2 - (ImGui::CalcTextSize("Injection was successful!").x) / 2), (window::size.y / 2 - (ImGui::CalcTextSize("Injection was successful!").y) / 2)));
+                    ImGui::ShadowText("Injection was successful!", ImGui::GetColorU32(ImStyle::text::have_account), ImGui::GetColorU32(ImStyle::text::have_account), 0.f, ImVec2((window::size.x / 2 - (ImGui::CalcTextSize("Injection was successful!").x / 2)), 200.f));
 
                 }
                 else if (active_tab == 5) 
@@ -767,7 +771,7 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
                     ImGui::SetCursorPos(ImVec2(15, 15));
                     if (ImGui::TextButton("E", ImVec2(25, 25))) tabs = 2;
 
-                    ImGui::ShadowText("Injection was unsuccessful!", ImGui::GetColorU32(ImStyle::text::have_account), ImGui::GetColorU32(ImStyle::text::have_account), 0.f, ImVec2((window::size.x / 2 - (ImGui::CalcTextSize("Injection was successful!").x) / 2), (window::size.y / 2 - (ImGui::CalcTextSize("Injection was successful!").y) / 2)));
+                    ImGui::ShadowText("Injection was unsuccessful!", ImGui::GetColorU32(ImStyle::text::have_account), ImGui::GetColorU32(ImStyle::text::have_account), 0.f, ImVec2((window::size.x / 2 - (ImGui::CalcTextSize("Injection was unsuccessful!").x / 2)), 200.f));
 
                 }
 
